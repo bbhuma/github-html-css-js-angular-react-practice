@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stripe</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700:800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <div class="nav__header">
+          <div class="nav__logo-container">
+            <img class="nav__logo" src="./images/logo.svg" alt="Stripe logo" />
+          </div>
+          <button class="nav__open-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <ul class="navbar">
+          <li class="navbar__item">
+            <button class="navbar__btn">products</button>
+          </li>
+          <li class="navbar__item">
+            <button class="navbar__btn">developers</button>
+          </li>
+          <li class="navbar__item">
+            <button class="navbar__btn">company</button>
+          </li>
+        </ul>
+        <span class="sub-items__triangle"></span>
+        <section class="sub-items">
+          <div class="sub-items-container"></div>
+        </section>
+        <button class="nav__sign-in-btn">Sign In</button>
+        <aside class="sidebar">
+          <div class="sidebar-container">
+            <div class="sidebar__header">
+              <button class="sidebar__close-btn">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <section class="sidebar__links">
+              <h3 class="sidebar__title">Products</h3>
+              <div class="sidebar__sublinks">
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-credit-card"></i> Payment
+                </a>
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-credit-card"></i> Terminal
+                </a>
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-credit-card"></i> Connect
+                </a>
+              </div>
+            </section>
+            <section class="sidebar__links">
+              <h3 class="sidebar__title">Developers</h3>
+              <div class="sidebar__sublinks">
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-book"></i> Plugins
+                </a>
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-book"></i> Libraries
+                </a>
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-book"></i> Plugins
+                </a>
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-book"></i> Billing
+                </a>
+              </div>
+            </section>
+            <section class="sidebar__links">
+              <h3 class="sidebar__title">Company</h3>
+              <div class="sidebar__sublinks">
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-briefcase"></i> About
+                </a>
+                <a class="sidebar__link" href="#">
+                  <i class="sidebar__icon fa-solid fa-briefcase"></i> Customers
+                </a>
+              </div>
+            </section>
+          </div>
+        </aside>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero__info">
+            <h1 class="hero__title">
+              Payments infrastructure for the internet
+            </h1>
+            <p class="hero__text">
+              Millions of companies of all sizes—from startups to Fortune
+              500s—use Stripe’s software and APIs to accept payments, send
+              payouts, and manage their businesses online.
+            </p>
+            <button class="hero__start-btn">Start now</button>
+          </div>
+          <div class="hero__img-container">
+            <img class="hero__img" src="./images/phone.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar with Sections</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#about" onclick="showSection('about')">About</a></li>
+                <li><a href="#services" onclick="showSection('services')">Services</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Account</a>
+                    <div class="dropdown-content">
+                        <a href="#signup" onclick="showSection('signup')">Sign Up</a>
+                        <a href="#details" onclick="showSection('details')">Account Details</a>
+                        <a href="#settings" onclick="showSection('settings')">Settings</a>
+                        <a href="#privacy" onclick="showSection('privacy')">Privacy</a>
+                    </div>
+                </li>
+                <li id="login-logout"><a href="javascript:void(0)" onclick="toggleLogin()">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-section">
+        <div id="home" class="section active">
+            <h1>Home</h1>
+            <p>Welcome to the home page.</p>
+        </div>
+        <div id="about" class="section">
+            <h1>About</h1>
+            <p>This is the about page.</p>
+        </div>
+        <div id="services" class="section">
+            <h1>Services</h1>
+            <p>These are our services.</p>
+        </div>
+        <div id="contact" class="section">
+            <h1>Contact</h1>
+            <p>Contact us here.</p>
+        </div>
+        <div id="signup" class="section">
+            <h1>Sign Up</h1>
+            <p>Sign up for an account.</p>
+        </div>
+        <div id="details" class="section">
+            <h1>Account Details</h1>
+            <p>Your account details.</p>
+        </div>
+        <div id="settings" class="section">
+            <h1>Settings</h1>
+            <p>Manage your settings.</p>
+        </div>
+        <div id="privacy" class="section">
+            <h1>Privacy</h1>
+            <p>Your privacy settings.</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- sidebar -->
+    <nav class="nav">
+      <!-- toggle button -->
+      <button class="nav__toggle-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <!-- sidebar -->
+      <aside class="sidebar">
+        <!-- sidebar logo -->
+        <div class="sidebar__header">
+          <!-- sidebar logo -->
+          <p class="sidebar__logo">
+            Erel <span class="sidebar__logo--highlight">Japco</span>
+          </p>
+          <!-- sidebar close button -->
+          <button class="sidebar__close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <!-- sidebar links -->
+        <ul class="sidebar__links">
+          <li><a href="#" class="sidebar__link">Home</a></li>
+          <li><a href="#" class="sidebar__link">About</a></li>
+          <li><a href="#" class="sidebar__link">Projects</a></li>
+          <li><a href="#" class="sidebar__link">Contact</a></li>
+        </ul>
+        <!-- end of sidebar links -->
+        <!-- sidebar social links -->
+        <ul class="sidebar__social-links">
+          <li>
+            <a href="#" class="sidebar__social-link">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar__social-link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar__social-link">
+              <i class="fa-brands fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar__social-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar__social-link">
+              <i class="fa-brands fa-sketch"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- end of sidebar social links -->
+      </aside>
+    </nav>
+    <!-- end of sidebar -->
+    <!-- javascript -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

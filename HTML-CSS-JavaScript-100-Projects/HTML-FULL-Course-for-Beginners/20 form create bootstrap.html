@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Create</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Form Create</h2>
+        <form>
+            <div class="form-group">
+                <label for="fullname">Fullname:</label>
+                <input type="text" class="form-control" name="fullname" id="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" name="password" id="password" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date:</label>
+                <input type="date" class="form-control" name="dob" id="dob">
+            </div>
+            <div class="form-group">
+                <label for="photo">Photo:</label>
+                <input type="file" class="form-control-file" name="photo" id="photo">
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="genderMale" value="male" checked>
+                    <label class="form-check-label" for="genderMale">Male</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="female">
+                    <label class="form-check-label" for="genderFemale">Female</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="genderOther" value="other">
+                    <label class="form-check-label" for="genderOther">Other</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Religion:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="religion" id="religionMuslim" value="muslim" checked>
+                    <label class="form-check-label" for="religionMuslim">Muslim</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="religion" id="religionHindu" value="hindu">
+                    <label class="form-check-label" for="religionHindu">Hindu</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="religion" id="religionBoddho" value="boddho">
+                    <label class="form-check-label" for="religionBoddho">Boddho</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select class="form-control" name="department" id="department">
+                    <option value="CSE" selected>CSE</option>
+                    <option value="EEE" >EEE</option>
+                    <option value="ECE">ECE</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-BO1auSBOJ6IE6F8MbjUfnF9+8bm+qxK5DsdpKn7ATVsHjj0C7nRa/0hT44vJ5HBk" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4Agfi9I4M1GzARScJPSLtG3mt68PFFXZ8+/oRT5eP2Fs5PYKhNfZ" crossorigin="anonymous"></script>
+</body>
+</html>

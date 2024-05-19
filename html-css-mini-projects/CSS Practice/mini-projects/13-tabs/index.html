@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="features">
+        <div class="features--container">
+          <h2 class="features__title">features</h2>
+          <p class="features__copy">
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+          <div class="features__tabs">
+            <!-- buttons -->
+            <div class="features__btns">
+              <button
+                class="features__btn features__btn--active"
+                data-id="bookmarking"
+              >
+                Simple Bookmarking
+              </button>
+              <button class="features__btn" data-id="searching">
+                Speedy Searching
+              </button>
+              <button class="features__btn" data-id="sharing">
+                Easy Sharing
+              </button>
+            </div>
+            <div class="features__contents">
+              <!-- content -->
+              <article
+                class="features__content features__content--active"
+                id="bookmarking"
+              >
+                <div class="features__content-img--container">
+                  <img
+                    src="./images/illustration-features-tab-1.svg"
+                    alt=""
+                    class="features__content-img"
+                  />
+                </div>
+                <div class="features__content-info">
+                  <h3 class="features__content-title">Bookmark in one click</h3>
+                  <p class="features__content-copy">
+                    Organize your bookmarks however you like. Our simple
+                    drag-and-drop interface gives you complete control over how
+                    you manage your favourite sites.
+                  </p>
+                  <button class="features__content-btn btn">More Info</button>
+                </div>
+              </article>
+              <!-- end of content -->
+              <!-- content -->
+              <article class="features__content" id="searching">
+                <div class="features__content-img--container">
+                  <img
+                    src="./images/illustration-features-tab-2.svg"
+                    alt=""
+                    class="features__content-img"
+                  />
+                </div>
+                <div class="features__content-info">
+                  <h3 class="features__content-title">Intelligent search</h3>
+                  <p class="features__content-copy">
+                    Our powerful search features will help you find saved sites
+                    in no time at all. No need to trawl through all of your
+                    bookmarks.
+                  </p>
+                  <button class="features__content-btn btn">More Info</button>
+                </div>
+              </article>
+              <!-- end of content -->
+              <!-- content -->
+              <article class="features__content" id="sharing">
+                <div class="features__content-img--container">
+                  <img
+                    src="./images/illustration-features-tab-3.svg"
+                    alt=""
+                    class="features__content-img"
+                  />
+                </div>
+                <div class="features__content-info">
+                  <h3 class="features__content-title">Share your bookmarks</h3>
+                  <p class="features__content-copy">
+                    Easily share your bookmarks and collections with others.
+                    Create a shareable link that you can send at the click if a
+                    button.
+                  </p>
+                  <button class="features__content-btn btn">More Info</button>
+                </div>
+              </article>
+              <!-- end of content -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

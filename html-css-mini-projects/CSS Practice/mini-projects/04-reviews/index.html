@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Default Starter</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <!-- reviews section -->
+      <section class="reviews">
+        <div class="reviews--container">
+          <!-- reviews header -->
+          <div class="reviews__header">
+            <h2 class="reviews__title title">our reviews</h2>
+            <span class="reviews__title--underline title--underline"></span>
+          </div>
+          <!-- end of reviews header -->
+          <!-- reviews container -->
+          <div class="review--container">
+            <!-- review -->
+            <div class="review">
+              <!-- review img -->
+              <div class="review__img--container">
+                <img
+                  class="review__img img"
+                  src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg"
+                  alt="photo of Sarah Jones"
+                />
+              </div>
+              <!-- end of review img -->
+              <!-- review info -->
+              <div class="review__info">
+                <h3 class="review__reviewer">sara jones</h3>
+                <small class="review__job-title">ux designer</small>
+                <p class="review__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  veritatis blanditiis aperiam modi id tenetur obcaecati,
+                  aliquid sapiente sed vitae?
+                </p>
+              </div>
+              <!-- end of review info -->
+              <!-- action buttons -->
+              <div class="review__action-btns">
+                <button class="review__prev-btn review--btn">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="review__next-btn review--btn">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+              <!-- end of action buttons -->
+              <button class="review__random-btn review--btn btn">
+                surprise me
+              </button>
+            </div>
+            <!-- end of review -->
+          </div>
+        </div>
+        <!-- end of reviews container -->
+      </section>
+      <!-- end of reviews section -->
+    </main>
+    <!-- scripts -->
+    <script src="./js/reviews.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
